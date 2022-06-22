@@ -1,0 +1,240 @@
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<style type="text/css">
+
+
+   body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: green;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron{
+    background-color: lightgreen;
+    color: green;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand 
+  {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color:red !important ;
+    background-color: #fff !important;
+
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  .navbar{
+     font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+   .logo {
+    color: green;
+    font-size: 200px;
+  }
+
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .bg-grey {
+    background-color: lightgreen;
+  }
+    .img-thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .img-thumbnail img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  a{
+    color: white;
+    line-height: 3;
+  }
+  .jumbotronf{
+    background-color: gray;
+    color: white;
+    padding: 95px 85px;
+    font-family: Montserrat, sans-serif;
+  }
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+  <div class="container">
+   <div class="navbar-header">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+  <a class="navbar-brand" href="#">NATURE.COM</a>
+
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a class="nav-link" href="home.html" >HOME</a>
+      </li>
+      <li >
+        <a class="nav-link" href="about.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cate.html">CATEGORIES</a>
+      </li> 
+      <li class="active">
+        <a class="nav-link" href="port.html">PORTFOLIO</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="pric.html">PRICING</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>    
+    </ul>
+  </div>  
+  </div>
+</nav>
+
+
+<div class="jumbotron text-center">
+  <h1>NATURE</h1> 
+  <p>Breathe In Peace, eat in peace....</p> 
+  <form>
+    <div class="input-group">
+    
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What we have created</h4>
+  <div class="row text-center">
+    <div class="col-4">
+      <div class="img-thumbnail">
+        <img src="th1.jpg" width="400" height="300">
+        <!-- <p><strong>Paris</strong></p> -->
+        <p>“The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.”</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="img-thumbnail">
+        <img src="pd3.jpg"  width="400" height="300">
+        <p>To make agriculture sustainable, the grower has got to be able to make a profit.
+</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="img-thumbnail">
+        <img src="pd2.jpg" width="400" height="300">
+        <p>The discovery of agriculture was the first big step toward a civilized life.
+</p>
+      </div>
+    </div>
+  </div><br>
+  
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+      </div>
+      <div class="carousel-item">
+        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="carousel-item">
+        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      </div>
+    </div>
+
+     <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+</div>
+
+ <div class="jumbotronf mt-5">
+
+<div style="width: 100%;height: 200px;">
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="fas fa-map-marker"></span> Chicago, US</p>
+      <p><span class="fas fa-phone"></span> +00 1515151515</p>
+      <p><span class="fas fa-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-8 text-center">
+     
+        <a href="home.html" >HOME&nbsp;&nbsp;&nbsp;<i class="fas fa-home"></i></a><br>
+
+      
+        <a  href="about.html">ABOUT&nbsp;&nbsp;&nbsp;<i class="fa fa-group"></i></a><br>
+
+        <a  href="cate.html">CATEGORIES&nbsp;&nbsp;&nbsp;<i class="fa fa-bars"></i></a><br>
+  
+        <a  href="port.html">PORTFOLIO&nbsp;&nbsp;&nbsp;<i class="fa fa-industry"></i></a><br>
+      
+        <a  href="pric.html">PRICING&nbsp;&nbsp;&nbsp;<i class="fas fa-dollar-sign"></i></a><br>
+      
+        <a  href="contact.html">CONTACT&nbsp;&nbsp;&nbsp;<i class="fa fa-phone-square"></i></a><br>
+    
+    </div>
+</div>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</div>
+
+</body>
+</html>
